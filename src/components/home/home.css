@@ -15,9 +15,24 @@ body{
     top: 0;
     left: 0;
 }
+
+.timer{
+    font-size: 40px;
+    margin-top: 70px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -60px;
+}
+
 .homemain{
     display: flex ;
     flex-direction: row;
+    justify-content: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
 }
 
 .festinfo{
@@ -25,19 +40,28 @@ body{
     flex-direction: column;
     text-align: center;
     padding-left: 50px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .name{
-   font-size: 60px;
+   font-size: 90px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(204,214,246);
-    margin-bottom: -20px;
+    margin-bottom: -60px;
+    margin-top: 70px;
+    letter-spacing: 0.4rem;
 }
 
 .festinfo p{
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(136,146,176);
-    margin-bottom: -10px;
+    margin-bottom: -30px;
+}
+
+.festinfo h5{
+    font-size: 40px;
+    color: rgb(136,146,176);
+    margin-bottom: -30px;
+    letter-spacing: 0.3rem;
 }
 
 .cards{
@@ -79,3 +103,25 @@ body{
     margin-left: 300px !important;
     margin-top: -20px;
 }
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px !important;
+    margin: 0 auto;
+}
+
+.submit{
+    width: 150px;
+    font-family:'Montserrat';
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: rgb(136,146,176);
+    color: white;
+    border-style: none;
+    border-radius: 0.3rem;
+    justify-items: center;
+    display:block;
+    padding: 15px;
+    margin: 10px;
+  }
