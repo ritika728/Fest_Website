@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import sample from './sample.mov'
+import sample from './sample1.mp4'
 
 
 const home = () => {
