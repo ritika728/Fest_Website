@@ -1,3 +1,4 @@
+
 import Home from "./components/home/home";
 import React from "react";
 import About from './components/about/about';
@@ -20,7 +21,8 @@ function App() {
           </Routes>
         </div>
       </>
-  );
+    );
+
 }
 
 export default App;
