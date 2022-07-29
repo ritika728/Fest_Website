@@ -1,8 +1,10 @@
 import React from 'react'
 import './home.css'
 import { useEffect, useState } from "react";
-import sample from './sample1.mp4'
+// import sample from './x.mp4'
 import { useNavigate } from 'react-router-dom';
+// import './stars.js'
+// import './bg.html'
 
 
 const Home = () => {
@@ -47,19 +49,18 @@ const Home = () => {
  
 const navigate=useNavigate();
   return (
-    <div>
-      <video className='videoTag' autoPlay loop muted>
-         <source src={sample} type='video/mp4' />
-      </video>
-      
+    
+      <div>
+        
+        <div id="stars"></div>
+        {/* <div id="stars2"></div> */}
+        {/* <div id="stars3"></div> */}
         <div className='homemain'>
-          <div className='left'>
-            <div className='festinfo'>
-                <h1 className='name'>FEST NAME</h1>
-                <h5>TAGLINE </h5>
-                <p>03/09/2022 - 06/09/2022</p>
-            </div>
-            <div className='buttons'>
+            <div className='festinfo' id='title'>
+                 <span >FEST NAME</span> <br/>
+                <span>TAGLINE </span><br/>
+                <span>03/09/2022 - 06/09/2022</span>
+                <div className='buttons'>
             <button onClick={()=>{
             window.scrollTo(0,0);
             navigate("/about");}} type='submit'className="submit">ABOUT</button>
@@ -77,22 +78,11 @@ const navigate=useNavigate();
           {timerComponents.length ? timerComponents : <span>Time's up!</span>}
           </div>
             </div>
-            <div className='cards'>
-              <div className='card1'>
-                <img src="" alt="" />
-              </div>
-              <div className='card2'>
-                <img src="" alt="" />
-              </div>
-              <div className='card3'>
-                <img src="" alt="" />
-              </div>
-              <div className='card4'>
-                <img src="" alt="" />
-              </div>
+            
+          
             </div>
+            
         </div>
-    </div>
   )
 }
 
