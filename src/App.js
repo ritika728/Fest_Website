@@ -5,13 +5,15 @@ import Events from './components/events/events';
 import { Route, Routes, useLocation } from "react-router-dom";
 import Navbar from './components/navbar/navbar'
 import Contact from "./components/contact/contact";
+import SideBar from "./components/SideBar/SideBar";
 
 function App() {
   const location=useLocation();
   const ishome = location.pathname==="/"
     return (
       <>
-        {!ishome && <Navbar />}
+        {/* {!ishome && <Navbar />} */}
+        <SideBar/>
         <div className="container">
           <Routes>
             <Route path="/" element={<Home />} />
