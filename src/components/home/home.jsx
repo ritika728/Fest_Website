@@ -1,15 +1,12 @@
 import React from 'react'
 import './home.css'
 import { useEffect, useState } from "react";
-// import sample from './x.mp4'
 import { useNavigate } from 'react-router-dom';
-// import './stars.js'
-// import './bg.html'
 
 
 const Home = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`2022-11-1`) - +new Date();
+    const difference = +new Date(`2022-11-4`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -46,20 +43,23 @@ const Home = () => {
       </span>
     );
   });
+
+  
  
 const navigate=useNavigate();
   return (
     
+    
       <div>
         
         <div id="stars"></div>
-        {/* <div id="stars2"></div> */}
+        {/* <div id="stars2"></div>  */}
         {/* <div id="stars3"></div> */}
         <div className='homemain'>
             <div className='festinfo' id='title'>
                  <span >FEST NAME</span> <br/>
                 <span>TAGLINE </span><br/>
-                <span>03/09/2022 - 06/09/2022</span>
+                <span>04/11/2022 - 06/11/2022</span>
                 <div className='buttons'>
             <button onClick={()=>{
             window.scrollTo(0,0);
