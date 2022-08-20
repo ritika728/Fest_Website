@@ -3,7 +3,7 @@ import React from "react";
 import About from './components/about/about';
 import Events from './components/events/events';
 import { Route, Routes, useLocation } from "react-router-dom";
-import Navbar from './components/navbar/navbar'
+// import Navbar from './components/navbar/navbar'
 import Contact from "./components/contact/contact";
 import SideBar from "./components/SideBar/SideBar";
 
