@@ -1,9 +1,11 @@
 import React from 'react'
+import './about.css'
+import bg from './bg.jpeg'
 
 const About = () => {
-  return (
-    <div>about</div>
-  )
+   return (
+    <div className="edition"></div>
+  );
 }
 
 export default About
