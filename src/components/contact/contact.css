@@ -26,7 +26,103 @@
 	background: linear-gradient(to right, #016cec, #00b5f7);
 }
 
-.person-image {
+.person-image1 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/heena.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
+}
+
+
+
+.single-person{
+    width: 180px;
+    height: 180px;
+}
+.sectionteam{
+    display: flex;
+    flex-direction: row;
+}
+.team{
+    margin: 0 auto;
+}
+
+.team:hover .person-image1 {
+	/* padding: 3px; */
+    border: 4px dashed rgb(80, 62, 199);
+    border-image-outset: 5px;
+    transform: scale(0.9);
+
+}
+.person-image2 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/jahnavi.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
+}
+
+
+
+.single-person{
+    width: 180px;
+    height: 180px;
+}
+.sectionteam{
+    display: flex;
+    flex-direction: row;
+}
+.team{
+    margin: 0 auto;
+}
+
+.team:hover .person-image2 {
+	/* padding: 3px; */
+    border: 4px dashed rgb(80, 62, 199);
+    border-image-outset: 5px;
+    transform: scale(0.9);
+
+}
+.person-image3 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/nivedita.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
+}
+
+
+
+.single-person{
+    width: 180px;
+    height: 180px;
+}
+.sectionteam{
+    display: flex;
+    flex-direction: row;
+}
+.team{
+    margin: 0 auto;
+}
+
+.team:hover .person-image3 {
+	/* padding: 3px; */
+    border: 4px dashed rgb(80, 62, 199);
+    border-image-outset: 5px;
+    transform: scale(0.9);
+
+}
+.person-image4 {
     /* border: 4px dashed rgb(199, 62, 62); */
     background-image: url(../assests/ritika.png);
     background-repeat: no-repeat;
@@ -55,33 +151,44 @@ html {
     margin: 0 auto;
 }
 
-.team:hover .person-image {
+.team:hover .person-image4 {
 	/* padding: 3px; */
     border: 4px dashed rgb(80, 62, 199);
     border-image-outset: 5px;
     transform: scale(0.9);
 
 }
-.person-image {
-	width: 60%;
-    height: 60%;
-    border-radius: 50%;
-    background-size: 50%;
-}
-/* .person-info{
-    margin-top: -65px;
-} */
-
-.sectionteam .single-person .person-info .full-name {
-	margin-bottom: 10px;
-	font-size: 23px;
-    font-weight: 700;
+.person-image5 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/shobhna.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
 }
 
-.sectionteam .single-person .person-info .speciality {
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #016cec;
+
+
+.single-person{
+    width: 180px;
+    height: 180px;
+}
+.sectionteam{
+    display: flex;
+    flex-direction: row;
+}
+.team{
+    margin: 0 auto;
+}
+
+.team:hover .person-image5 {
+	/* padding: 3px; */
+    border: 4px dashed rgb(80, 62, 199);
+    border-image-outset: 5px;
+    transform: scale(0.9);
+
 }
 
 .sectionteam .single-person:hover .full-name,
