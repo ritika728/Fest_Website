@@ -3,8 +3,8 @@ import './contact.css'
 
 const Contact = () => {
   return (
-    <div className="teams">
-		 <div class='light x1'></div>
+    <div>
+		<div class='light x1'></div>
   <div class='light x2'></div>
   <div class='light x3'></div>
   <div class='light x4'></div>
@@ -34,25 +34,26 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-				<div className="team">
-					<div className="single-person">
-						<div className="person-image3">
+				<div class="team">
+					<div class="single-person">
+						<div class="person-image3">
 						</div>
-						<div className="person-info">
+						<div class="person-info">
 							<h3 class="full-name">Nivedita Vyas</h3>
-							<span className="speciality">Secretary</span>
+							<span class="speciality">Secretary</span>
 						</div>
 					</div>
 				</div>
 				<div class="team">
 					<div class="single-person">
-						<div class="person-image4">
+						<div class="person-image4">	
 						</div>
 						<div class="person-info">
 							<h3 class="full-name">Ritika Malik</h3>
 							<span class="speciality">WebMaster</span>
 						</div>
 					</div>
+					
 				</div>
 				<div class="team">
 					<div class="single-person">
@@ -63,6 +64,7 @@ const Contact = () => {
 							<span class="speciality">Treasurer</span>
 						</div>
 					</div>
+					
 				</div>
 	</div>
 	</div>

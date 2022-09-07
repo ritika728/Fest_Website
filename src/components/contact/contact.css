@@ -1,17 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
-
 .sectionteam {
-	/* font-family: sans-serif; */
+	font-family: "Poppins", sans-serif;
 	padding: 80px 0;
-    font-family: "lato", sans-serif;
-     font-weight: 300;
-    /* background: -webkit-linear-gradient(white, #38495a);
-    background-clip:text;
-    -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    
 }
 
 
@@ -24,7 +13,19 @@
 
 .single-person:hover {
 	background: linear-gradient(to right, #016cec, #00b5f7);
+    background: -webkit-linear-gradient(white, #38495a);
+    /* background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
+/* .single-person:hover {
+	background: linear-gradient(to right, #016cec, #00b5f7);
+    background: -webkit-linear-gradient(white, #38495a);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
 
 .person-image1 {
     /* border: 4px dashed rgb(199, 62, 62); */
@@ -35,6 +36,69 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     transition: transform .3s;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-size: 50%;
+}
+.person-image2 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/jahnavi.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-size: 50%;
+    
+}
+.person-image3 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/nivedita.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-size: 50%;
+    
+}
+.person-image4 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/ritika.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-size: 50%;
+    
+}
+.person-image5 {
+    /* border: 4px dashed rgb(199, 62, 62); */
+    background-image: url(../assests/shobhna.png);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    transition: transform .3s;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-size: 50%;
 }
 
 
@@ -53,84 +117,31 @@
 
 .team:hover .person-image1 {
 	/* padding: 3px; */
-    border: 4px dashed rgb(80, 62, 199);
-    border-image-outset: 5px;
-    transform: scale(0.9);
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
 
-}
-.person-image2 {
-    /* border: 4px dashed rgb(199, 62, 62); */
-    background-image: url(../assests/jahnavi.png);
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    transition: transform .3s;
 }
 
 
-
-.single-person{
-    width: 180px;
-    height: 180px;
-}
-.sectionteam{
-    display: flex;
-    flex-direction: row;
-}
-.team{
-    margin: 0 auto;
+.sectionteam .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 23px;
+    font-weight: 700;
 }
 
-.team:hover .person-image2 {
-	/* padding: 3px; */
-    border: 4px dashed rgb(80, 62, 199);
-    border-image-outset: 5px;
-    transform: scale(0.9);
+.sectionteam .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #016cec;
 
 }
-.person-image3 {
-    /* border: 4px dashed rgb(199, 62, 62); */
-    background-image: url(../assests/nivedita.png);
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    transition: transform .3s;
-}
 
-
-
-.single-person{
-    width: 180px;
-    height: 180px;
-}
-.sectionteam{
-    display: flex;
-    flex-direction: row;
-}
-.team{
-    margin: 0 auto;
-}
-
-.team:hover .person-image3 {
-	/* padding: 3px; */
-    border: 4px dashed rgb(80, 62, 199);
-    border-image-outset: 5px;
-    transform: scale(0.9);
-
-}
-.person-image4 {
-    /* border: 4px dashed rgb(199, 62, 62); */
-    background-image: url(../assests/ritika.png);
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    transition: transform .3s;
+.sectionteam .single-person:hover .full-name,
+.sectionteam .single-person:hover .speciality {
+	color: #fff;
+    
 }
 
 html {
@@ -139,69 +150,12 @@ html {
     overflow: hidden;
   }
 
-.single-person{
-    width: 180px;
-    height: 180px;
-}
-.sectionteam{
-    display: flex;
-    flex-direction: row;
-}
-.team{
-    margin: 0 auto;
-}
-
-.team:hover .person-image4 {
-	/* padding: 3px; */
-    border: 4px dashed rgb(80, 62, 199);
-    border-image-outset: 5px;
-    transform: scale(0.9);
-
-}
-.person-image5 {
-    /* border: 4px dashed rgb(199, 62, 62); */
-    background-image: url(../assests/shobhna.png);
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    transition: transform .3s;
-}
-
-
-
-.single-person{
-    width: 180px;
-    height: 180px;
-}
-.sectionteam{
-    display: flex;
-    flex-direction: row;
-}
-.team{
-    margin: 0 auto;
-}
-
-.team:hover .person-image5 {
-	/* padding: 3px; */
-    border: 4px dashed rgb(80, 62, 199);
-    border-image-outset: 5px;
-    transform: scale(0.9);
-
-}
-
-.sectionteam .single-person:hover .full-name,
-.sectionteam .single-person:hover .speciality {
-	color: #fff;
-}
-
 
 .light {
     position: absolute;
     width: 0px;
     opacity: .75;
-    background-color: white;
+    background: transparent;
     box-shadow: #e9f1f1 0px 0px 20px 2px;
     opacity: 0;
     top: 100vh;
@@ -209,9 +163,11 @@ html {
     left: 0px;
     right: 0px;
     margin: auto;
+    overflow:hidden !important;
 }
 
 .x1{
+    overflow:hidden;
   -webkit-animation: floatUp 4s infinite linear;
   -moz-animation: floatUp 4s infinite linear;
   -o-animation: floatUp 4s infinite linear;
@@ -223,6 +179,7 @@ html {
 }
 
 .x2{
+    overflow:hidden;
   -webkit-animation: floatUp 7s infinite linear;
   -moz-animation: floatUp 7s infinite linear;
   -o-animation: floatUp 7s infinite linear;
@@ -235,6 +192,7 @@ html {
 }
 
 .x3{
+    overflow:hidden;
   -webkit-animation: floatUp 2.5s infinite linear;
   -moz-animation: floatUp 2.5s infinite linear;
   -o-animation: floatUp 2.5s infinite linear;
@@ -247,6 +205,7 @@ html {
 }
 
 .x4{
+    overflow:hidden;
   -webkit-animation: floatUp 4.5s infinite linear;
   -moz-animation: floatUp 4.5s infinite linear;
   -o-animation: floatUp 4.5s infinite linear;
@@ -259,6 +218,7 @@ html {
 }
 
 .x5{
+    overflow:hidden;
   -webkit-animation: floatUp 8s infinite linear;
   -moz-animation: floatUp 8s infinite linear;
   -o-animation: floatUp 8s infinite linear;
@@ -271,6 +231,7 @@ html {
 }
 
 .x6{
+    overflow:hidden;
   -webkit-animation: floatUp 3s infinite linear;
   -moz-animation: floatUp 3s infinite linear;
   -o-animation: floatUp 3s infinite linear;
@@ -283,6 +244,7 @@ html {
 }
 
 .x7{
+    overflow:hidden;
   -webkit-animation: floatUp 5.3s infinite linear;
   -moz-animation: floatUp 5.3s infinite linear;
   -o-animation: floatUp 5.3s infinite linear;
@@ -295,6 +257,7 @@ html {
 }
 
 .x8{
+    overflow:hidden;
   -webkit-animation: floatUp 4.7s infinite linear;
   -moz-animation: floatUp 4.7s infinite linear;
   -o-animation: floatUp 4.7s infinite linear;
@@ -307,6 +270,7 @@ html {
 }
 
 .x9{
+    overflow:hidden !;
   -webkit-animation: floatUp 4.1s infinite linear;
   -moz-animation: floatUp 4.1s infinite linear;
   -o-animation: floatUp 4.1s infinite linear;
