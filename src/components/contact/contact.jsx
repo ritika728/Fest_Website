@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="sectionteam">
 				<div className="team">
 					<div className="single-person">
-						<div className="person-image">
+						<div className="person-image1">
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Heena Thadani</h3>
@@ -17,7 +17,7 @@ const Contact = () => {
 				</div>
 				<div className="team">
 					<div className="single-person">
-						<div className="person-image">
+						<div className="person-image2">
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Jahnavi Sharma</h3>
@@ -27,7 +27,7 @@ const Contact = () => {
 				</div>
 				<div className="team">
 					<div className="single-person">
-						<div className="person-image">
+						<div className="person-image3">
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Nivedita Vyas</h3>
@@ -37,7 +37,7 @@ const Contact = () => {
 				</div>
 				<div class="team">
 					<div class="single-person">
-						<div class="person-image">
+						<div class="person-image4">
 						</div>
 						<div class="person-info">
 							<h3 class="full-name">Ritika Malik</h3>
@@ -47,7 +47,7 @@ const Contact = () => {
 				</div>
 				<div class="team">
 					<div class="single-person">
-						<div class="person-image">	
+						<div class="person-image5">	
 						</div>
 						<div class="person-info">
 							<h3 class="full-name">Shobhna Sharma</h3>
