@@ -137,3 +137,56 @@ html {
       transform: translateY(-2000px);
     }
   }
+
+  @media screen and (min-width:400px) and (max-width:500px) {
+    .homemain{
+      text-align: center;
+      scroll-behavior: smooth;
+      overflow-y: scroll;
+    }
+    #title{
+      font-size: 20px;
+    }
+    .timer{
+      font-size: 20px;
+      margin-top: 70px;
+      margin-bottom: -60px;
+  }
+  .buttons{
+      display: flex;
+      flex-direction: column;
+      margin-top: 65px !important;
+      margin: 0 auto;
+      margin-left:27%;
+  }
+  
+  .submit{
+      width: 150px;
+      font-family:'Montserrat';
+      font-weight: bolder;
+      font-size: 18px;
+      background-color: rgb(136,146,176);
+      color: white;
+      border-style: none;
+      border-radius: 0.3rem;
+      justify-items: center;
+      display:block;
+      padding: 15px;
+      margin: 10px;
+    }
+  
+  .submit:hover{
+      cursor: pointer;
+      width: 190px;
+      background-color: aquamarine;
+      color: black;
+      font-size: 22px;
+  }
+  
+  html {
+      height: 100%;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      overflow: hidden;
+    }
+    
+  }
