@@ -13,6 +13,8 @@ const Contact = () => {
   <div class='light x7'></div>
   <div class='light x8'></div>
   <div class='light x9'></div>
+  <div className='main'>
+  <h1 className="main_excom">EXECUTIVE COMMITEE</h1>
       <div className="sectionteam">
 				<div className="team">
 					<div className="single-person">
@@ -66,6 +68,77 @@ const Contact = () => {
 					</div>
 					
 				</div>
+	</div>
+	</div>
+	<div className='wie'>
+	<h1 className="main_excom2">WOMEN IN ENGINEERING - IEEE MUST</h1>
+	<div className="sectionteam">
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image1">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Puravsri Das</h3>
+							<span className="speciality">Chairperson</span>
+						</div>
+					</div>
+				</div>
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image2">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Vaidehi Purohit</h3>
+							<span className="speciality">Vice-Chair</span>
+						</div>
+					</div>
+				</div>
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image2">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Teesta Singh</h3>
+							<span className="speciality">Secretary</span>
+						</div>
+					</div>
+				</div>
+				</div>		
+	</div>
+	<div className='wie'>
+	<h1 className="main_excom2">COMPUTER SOCIETY - IEEE MUST</h1>
+	<div className="sectionteam2">
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image1">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Vanshika Dadhich</h3>
+							<span className="speciality">Chairperson</span>
+						</div>
+					</div>
+				</div>
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image2">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Bhumika Meena</h3>
+							<span className="speciality">Vice-Chair</span>
+						</div>
+					</div>
+				</div>
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image2">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Ishika Chaudhary</h3>
+							<span className="speciality">Secretary</span>
+						</div>
+					</div>
+				</div>
+				</div>			
 	</div>
 	</div>
   )
