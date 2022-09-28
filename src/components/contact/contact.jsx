@@ -4,7 +4,7 @@ import './contact.css'
 const Contact = () => {
   return (
     <div>
-		<div class='light x1'></div>
+		{/* <div class='light x1'></div>
   <div class='light x2'></div>
   <div class='light x3'></div>
   <div class='light x4'></div>
@@ -12,7 +12,10 @@ const Contact = () => {
   <div class='light x6'></div>
   <div class='light x7'></div>
   <div class='light x8'></div>
-  <div class='light x9'></div>
+  <div class='light x9'></div> */}
+   <div id="stars"></div>
+        <div id="stars2"></div> 
+        <div id="stars3"></div>
   <div className='main'>
   <h1 className="main_excom">EXECUTIVE COMMITEE</h1>
       <div className="sectionteam">
