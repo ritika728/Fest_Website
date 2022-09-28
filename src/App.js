@@ -9,7 +9,7 @@ import SideBar from "./components/SideBar/SideBar";
 
 function App() {
   const location=useLocation();
-  const ishome = location.pathname==="/"
+  // const ishome = location.pathname==="/"
     return (
       <>
         {/* {!ishome && <Navbar />} */}
