@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`2022-11-4`) - +new Date();
+    const difference = +new Date(`2022-10-7`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -57,9 +57,9 @@ const navigate=useNavigate();
         <div id="stars3"></div>
         <div className='homemain'>
             <div className='festinfo' id='title'>
-                 <span >FEST NAME</span> <br/>
+                 <span >IEEE DAY CELEBRATIONS'22</span> <br/>
                 <span >TAGLINE </span><br/>
-                <span>04/11/2022 - 06/11/2022</span>
+                <span>07/10/2022 - 09/10/2022</span>
                 <div className='buttons'>
             <button onClick={()=>{
             window.scrollTo(0,0);
