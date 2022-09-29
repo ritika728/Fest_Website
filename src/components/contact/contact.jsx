@@ -60,6 +60,12 @@ const Contact = () => {
 					</div>
 					
 				</div>
+				
+			
+	</div>
+	<div className="sectionteam">
+
+				
 				<div class="team">
 					<div class="single-person">
 						<div class="person-image5">	
@@ -71,11 +77,33 @@ const Contact = () => {
 					</div>
 					
 				</div>
+				{/* <img src="../assests/logo.png" alt="react logo" style={{ width: '400px', }}/> */}
+				<div class="team">
+					<div class="single-person">
+						<div class="person-image5">	
+						</div>
+						<div class="person-info">
+							<h3 class="full-name">Dr. Jeetu Sharma</h3>
+							<span class="speciality">Branch Counsler</span>
+						</div>
+					</div>
+					
+				</div>
 	</div>
 	</div>
 	<div className='wie'>
 	<h1 className="main_excom2">WOMEN IN ENGINEERING - IEEE MUST</h1>
 	<div className="sectionteam">
+	<div className="team">
+					<div className="single-person">
+						<div className="person-image1">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Dr. Niranjan Lal</h3>
+							<span className="speciality">Counseler</span>
+						</div>
+					</div>
+				</div>
 				<div className="team">
 					<div className="single-person">
 						<div className="person-image1">
@@ -111,6 +139,16 @@ const Contact = () => {
 	<div className='wie'>
 	<h1 className="main_excom2">COMPUTER SOCIETY - IEEE MUST</h1>
 	<div className="sectionteam2">
+	<div className="team">
+					<div className="single-person">
+						<div className="person-image1">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Dr. Anand Sharma</h3>
+							<span className="speciality">Counseler</span>
+						</div>
+					</div>
+				</div>
 				<div className="team">
 					<div className="single-person">
 						<div className="person-image1">
@@ -137,6 +175,51 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Ishika Chaudhary</h3>
+							<span className="speciality">Secretary</span>
+						</div>
+					</div>
+				</div>
+				</div>			
+	</div>
+	<div className='wie'>
+	<h1 className="main_excom2">COMMUNICATIONS SOCIETY - IEEE MUST</h1>
+	<div className="sectionteam2">
+	<div className="team">
+					<div className="single-person">
+						<div className="person-image1">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Dr. Jeetu Sharma</h3>
+							<span className="speciality">Counseler</span>
+						</div>
+					</div>
+				</div>
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image1">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Anuradha Sharma</h3>
+							<span className="speciality">Chairperson</span>
+						</div>
+					</div>
+				</div>
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image2">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Drishti Sharan</h3>
+							<span className="speciality">Vice-Chair</span>
+						</div>
+					</div>
+				</div>
+				<div className="team">
+					<div className="single-person">
+						<div className="person-image2">
+						</div>
+						<div className="person-info">
+							<h3 class="full-name">Simran Khan</h3>
 							<span className="speciality">Secretary</span>
 						</div>
 					</div>
