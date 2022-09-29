@@ -57,8 +57,9 @@ const navigate=useNavigate();
         <div id="stars3"></div>
         <div className='homemain'>
             <div className='festinfo' id='title'>
-                 <span >IEEE DAY CELEBRATIONS'22</span> <br/>
-                <span >TAGLINE </span><br/>
+                 <span className="heading">IEEE DAY CELEBRATIONS'22</span> <br/>
+                {/* <span >TAGLINE </span><br/> */}
+                <br/>
                 <span>07/10/2022 - 09/10/2022</span>
                 <div className='buttons'>
             <button onClick={()=>{
