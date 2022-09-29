@@ -3,8 +3,8 @@
     position: fixed;
     width: 50px;
     height: 40px;
-    left: 36px;
-    top: 36px;
+    left: 20px;
+    top: 20px;
   }
   
   /* Color/shape of burger icon bars */
@@ -80,4 +80,21 @@
   
   .bm-item:hover {
     color: #ffffff;
+  }
+  .bm-burger-button {
+    position: fixed;
+    width: 50px;
+    height: 40px;
+    left: 20px;
+    top: 20px;
+  }
+
+  @media screen and (max-width:600px) {
+    .bm-burger-button {
+      position: fixed;
+      width: 50px;
+      height: 40px;
+      left: 10px;
+      top: 10px;
+    }
   }
