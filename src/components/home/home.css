@@ -157,11 +157,11 @@ html {
     }
     #title{
       margin-top: -180px;
-      font-size: 90%;
+      font-size: 80%;
     
     }
     .heading{
-      font-size: 200%;
+      font-size: 190%;
       font-weight: bolder !important;
       margin-bottom: 30px;
       /* padding: 30px !important; */
@@ -182,7 +182,7 @@ html {
   }
   
   .submit{
-      width: 80px;
+      width: 75px;
       font-family:'Montserrat';
       font-weight: bolder;
       font-size: 10px;
@@ -201,7 +201,7 @@ html {
       width: 200% !important;
       /* background-color: aquamarine; */
       color: black;
-      font-size: 22px;
+      font-size: 18px;
   }
   
   html {
