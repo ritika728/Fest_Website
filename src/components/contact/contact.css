@@ -169,11 +169,6 @@
     margin-top: -10px;
 }
 
-.logo{
-  background-image: url(../assests/logo.png);
-}
-
-
 
 .single-person{
     width: 150px;
@@ -278,13 +273,13 @@ html {
     left: 0px;
     right: 0px;
     margin: auto;
-    /* overflow:hidden !important; */
-/*   
+    overflow:hidden !important;
+  
     left: 0; 
-    top: 0; */
-/* } */
+    top: 0;
+ } 
 
-/* .x1{
+ .x1{
     overflow:hidden;
   -webkit-animation: floatUp 4s infinite linear;
   -moz-animation: floatUp 4s infinite linear;
@@ -294,8 +289,8 @@ html {
    -moz-transform: scale(1.0);
    -o-transform: scale(1.0);
   transform: scale(1.0);
-} */
-/* 
+} 
+
 .x2{
     overflow:hidden;
   -webkit-animation: floatUp 7s infinite linear;

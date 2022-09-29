@@ -77,7 +77,6 @@ const Contact = () => {
 					</div>
 					
 				</div>
-				{/* <img src="../assests/logo.png" alt="react logo" style={{ width: '400px', }}/> */}
 				<div class="team">
 					<div class="single-person">
 						<div class="person-image5">	
