@@ -14,12 +14,10 @@
     text-align: center;
     font-family: "lato", sans-serif;
     font-weight: bold;
-    /* font-weight: 300; */
     font-size: 40px;
     letter-spacing: 10px;
     margin-top: 50px;
     margin-bottom: -40px;
-    /* padding-left: 10px; */
 }
 .main_excom2{
   background: -webkit-linear-gradient(white, #38495a);
@@ -33,17 +31,17 @@
     text-align: center;
     font-family: "lato", sans-serif;
     font-weight: bold;
-    /* font-weight: 300; */
+
     font-size: 35px;
     letter-spacing: 8px;
     margin-top: 220px;
     margin-bottom: -40px;
-    /* padding-left: 10px; */
+  
 }
 .main{
   display: flex;
   flex-direction: column;
-  /* margin-left: -70px; */
+
 }
 .wie{
   display: flex;
@@ -66,8 +64,7 @@
 .single-person {
 	margin-top: 30px;
 	padding: 30px;
-	/* background-color: #f6f9ff; */
-  /* background: -webkit-linear-gradient(white, #38495a); */
+
   background: -webkit-linear-gradient(white, #606f7c);
 	border-radius: 5px;
   position: absolute;
@@ -81,17 +78,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/* .single-person:hover {
-	background: linear-gradient(to right, #016cec, #00b5f7);
-    background: -webkit-linear-gradient(white, #38495a);
-    background-clip:text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
 
 
 .person-image1 {
-    /* border: 4px dashed rgb(199, 62, 62); */
+
     background-image: url(../assests/heena.png);
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -106,7 +96,7 @@
     margin-top: -10px;
 }
 .person-image2 {
-    /* border: 4px dashed rgb(199, 62, 62); */
+  
     background-image: url(../assests/jahnavi.png);
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -122,7 +112,7 @@
     
 }
 .person-image3 {
-    /* border: 4px dashed rgb(199, 62, 62); */
+  
     background-image: url(../assests/nivedita.png);
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -138,7 +128,7 @@
     
 }
 .person-image4 {
-    /* border: 4px dashed rgb(199, 62, 62); */
+
     background-image: url(../assests/ritika.png);
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -154,7 +144,7 @@
     
 }
 .person-image5 {
-    /* border: 4px dashed rgb(199, 62, 62); */
+    
     background-image: url(../assests/shobhna.png);
     background-repeat: no-repeat;
     background-size: cover !important;
@@ -258,9 +248,6 @@ html {
      
   }
 
-
-
-/* 
 .light {
     position: absolute;
     width: 0px;
@@ -302,7 +289,7 @@ html {
   -o-transform: scale(1.6);
   transform: scale(1.6);
   left: 15%;
-} */
+} 
 
 .x3{
     /* overflow:hidden; */
@@ -395,112 +382,6 @@ html {
   left: 85%;
 }
 
-
-@-webkit-keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
-@-moz-keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
-@-o-keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
-@keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
-
-
-@-webkit-keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
-}
-
-@-moz-keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
-}
-
-@-o-keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
-}
-
-@keyframes fadeIn{
-  from{opacity: 0;}
-  to{opacity: 1;}
-}
-
-@-webkit-keyframes fadeOut{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 0;}
-}
-
-@-moz-keyframes fadeOut{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 0;}
-}
-
-@-o-keyframes fadeOut{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 0;}
-}
-
-@keyframes fadeOut{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 0;}
-}
-
-@-webkit-keyframes finalFade{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
-}
-
-@-moz-keyframes finalFade{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
-}
-
-@-o-keyframes finalFade{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
-}
-
-@keyframes finalFade{
-  0%{opacity: 0;}
-  30%{opacity: 1;}
-  80%{opacity: .9;}
-  100%{opacity: 1;}
-} */
 
 #stars {
   width: 1px;
