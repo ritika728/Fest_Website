@@ -164,7 +164,6 @@ html {
       font-size: 190%;
       font-weight: bolder !important;
       margin-bottom: 30px;
-      /* padding: 30px !important; */
     }
     .timer{
       font-size: 170%;
@@ -199,7 +198,6 @@ html {
   .submit:hover{
       cursor: pointer;
       width: 200% !important;
-      /* background-color: aquamarine; */
       color: black;
       font-size: 18px;
   }
