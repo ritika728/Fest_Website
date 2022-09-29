@@ -149,7 +149,7 @@ html {
     }
   }
 
-  @media screen and (min-width:100px) and (max-width:600px) {
+  @media screen and (min-width:50px) and (max-width:600px) {
     .festinfo{
       /* padding-right: 20px; */
       
@@ -167,6 +167,7 @@ html {
     .heading{
       font-size: 190%;
       font-weight: bolder !important;
+      margin-bottom: 30px;
       /* padding: 30px !important; */
     }
     .timer{
