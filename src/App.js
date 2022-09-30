@@ -6,6 +6,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 // import Navbar from './components/navbar/navbar'
 import Contact from "./components/contact/contact";
 import SideBar from "./components/SideBar/SideBar";
+import Partners from "./components/partners/partners";
 
 function App() {
   const location=useLocation();
@@ -20,6 +21,7 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="/partners" element={<Partners/>} />
           </Routes>
         </div>
       </>

@@ -16,7 +16,7 @@
     font-weight: bold;
     font-size: 40px;
     letter-spacing: 10px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-bottom: -40px;
 }
 .main_excom2{
@@ -34,7 +34,7 @@
 
     font-size: 35px;
     letter-spacing: 8px;
-    margin-top: 220px;
+    margin-top: 60px;
     margin-bottom: -40px;
   
 }
@@ -51,17 +51,28 @@
 
 .sectionteam {
 	font-family: "Poppins", sans-serif;
-	padding: 80px 0;
+	/* margin-left: -100px; */
+  padding: 80px 0;
 }
 .sectionteam2 {
 	font-family: "Poppins", sans-serif;
-	padding: 80px 0;
+	padding: 30px 0;
   display: flex;
   flex-direction:row;
   justify-content:space-between
 }
 
-.single-person {
+.sectionteam3 {
+	font-family: "Poppins", sans-serif;
+	/* padding-left: 100px; */
+  /* margin-right: 190px; */
+  padding-top: 80px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between
+}
+
+/* .single-person {
 	margin-top: 30px;
 	padding: 30px;
 
@@ -69,7 +80,7 @@
 	border-radius: 5px;
   position: absolute;
   margin-left: -60px;
-}
+} */
 
 .single-person:hover {
 	background: linear-gradient(to right, #016cec, #00b5f7);
@@ -89,11 +100,11 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     transition: transform .3s;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -10px;
+    margin-top: 30px;
 }
 .person-image2 {
   
@@ -104,11 +115,11 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     transition: transform .3s;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -10px;
+    margin-top: 30px;
     
 }
 .person-image3 {
@@ -120,11 +131,11 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     transition: transform .3s;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -10px;
+    margin-top: -70px;
     
 }
 .person-image4 {
@@ -136,11 +147,11 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     transition: transform .3s;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -10px;
+    margin-top: -70px;
     
 }
 .person-image5 {
@@ -152,14 +163,196 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     transition: transform .3s;
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -10px;
+    margin-top: -70px;
 }
 
+.person-image6 {
 
+  background-image: url(../assests/JeetuMaam.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+
+.person-image7 {
+
+  background-image: url(../assests/niranjansir.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image8 {
+
+  background-image: url(../assests/purvaboss.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image9 {
+
+  background-image: url(../assests/vaidehi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image10 {
+
+  background-image: url(../assests/teesta.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+
+.person-image11 {
+
+  background-image: url(../assests/anandsir.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image12 {
+
+  background-image: url(../assests/vanshika.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image13 {
+
+  background-image: url(../assests/Bhumika.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+
+.person-image14 {
+
+  background-image: url(../assests/JeetuMaam.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image15 {
+
+  background-image: url(../assests/anuradha.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image16{
+
+  background-image: url(../assests/drishti.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
+.person-image17{
+
+  background-image: url(../assests/simran.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  transition: transform .3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-size: 50%;
+  margin-top: 30px;
+}
 .single-person{
     width: 150px;
     height: 150px;
@@ -215,20 +408,142 @@
     transform: scale(1.2);
 
 }
+.team:hover .person-image6 {
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
 
+}
+.team:hover .person-image7{
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
 
+}
+.team:hover .person-image8 {
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
+
+}
+.team:hover .person-image9{
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
+
+}
+.team:hover .person-image10 {
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
+
+}
+.team:hover .person-image11 {
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
+
+}
+.team:hover .person-image12 {
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
+
+}
+.team:hover .person-image13 {
+	/* padding: 3px; */
+    /* border: 2px dashed white; */
+    background-clip:content-box;
+    /* border-image-outset: 5px; */
+    transform: scale(1.2);
+
+  }.team:hover .person-image14 {
+    /* padding: 3px; */
+      /* border: 2px dashed white; */
+      background-clip:content-box;
+      /* border-image-outset: 5px; */
+      transform: scale(1.2);
+  
+  }
+  .team:hover .person-image15 {
+    /* padding: 3px; */
+      /* border: 2px dashed white; */
+      background-clip:content-box;
+      /* border-image-outset: 5px; */
+      transform: scale(1.2);
+  
+  }
+  .team:hover .person-image16 {
+    /* padding: 3px; */
+      /* border: 2px dashed white; */
+      background-clip:content-box;
+      /* border-image-outset: 5px; */
+      transform: scale(1.2);
+  
+  }
+  .team:hover .person-image17 {
+    /* padding: 3px; */
+      /* border: 2px dashed white; */
+      background-clip:content-box;
+      /* border-image-outset: 5px; */
+      transform: scale(1.2);
+  
+  }
 
 .sectionteam .single-person .person-info .full-name {
 	margin-bottom: 10px;
 	font-size: 18px;
     font-weight: 700;
+    color:white;
 }
+.sectionteam2 .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 17px;
+    font-weight: 700;
+    color:white;
+}
+.sectionteam3 .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 18px;
+    font-weight: 700;
+    color:white;
+}
+
 
 .sectionteam .single-person .person-info .speciality {
     text-transform: uppercase;
     font-size: 14px;
     /* color: #016cec; */
     color: white;
+
+}
+
+.sectionteam3 .single-person .person-info .speciality {
+  text-transform: uppercase;
+  font-size: 14px;
+  /* color: #016cec; */
+  color: white;
+
+}
+.sectionteam2 .single-person .person-info .speciality {
+  text-transform: uppercase;
+  font-size: 14px;
+  /* color: #016cec; */
+  color: white;
 
 }
 
@@ -239,8 +554,8 @@
 }
 
 html { 
-    /* height: 800%; */
-    height: 150%;
+    height: 300%;
+    /* height: 150%; */
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow:auto;
     scroll-behavior: smooth;
