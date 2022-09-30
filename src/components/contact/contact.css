@@ -559,13 +559,11 @@
 }
 
 html { 
-    height: 280%;
+    height: 100%;
     /* height: 150%; */
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    overflow:auto;
+    overflow:hidden;
     scroll-behavior: smooth;
-    
-     
   }
 
 
@@ -626,6 +624,9 @@ html {
 }
 
 @media screen and (max-width:600px) {
+  body{
+    overflow: auto;
+  }
   .sectionteam{
     display: flex;
     flex-direction: column;
@@ -638,9 +639,6 @@ html {
   .sectionteam3{
     display: flex;
     flex-direction: column;
-  }
-  html{
-    height: 800%;
   }
 
 }

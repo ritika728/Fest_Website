@@ -57,6 +57,7 @@ const navigate=useNavigate();
         <div id="stars3"></div>
         <div className='homemain'>
             <div className='festinfo' id='title'>
+              <div className='image'></div>
                  <span className="heading">IEEE DAY CELEBRATIONS'22</span> <br/>
                 {/* <span >TAGLINE </span><br/> */}
                 <br/>

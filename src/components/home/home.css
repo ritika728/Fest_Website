@@ -16,16 +16,6 @@
 
 
 
-/* #stars {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 16rem;
-    height: 100vh;
-    z-index: 1;
-  } */
-
-
 .festinfo{
   margin: 0 auto;
 }
@@ -63,7 +53,7 @@
 }
 
 html {
-    height: 100%;
+    /* height: 100%; */
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow: hidden;
   }
@@ -149,11 +139,22 @@ html {
     }
   }
 
-  @media screen and (min-width:50px) and (max-width:600px) {
+  @media screen and (max-width:600px) {
     .homemain{
+      overflow: hidden;
       text-align: center;
       scroll-behavior: smooth;
-      overflow-y: scroll;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* .festinfo{
+      width: 400px !important;
+      background-image: url(../assests/day.png);
+      background-repeat: no-repeat;
+    } */
+    .body {
+      overflow: hidden;
     }
     #title{
       margin-top: -180px;
@@ -209,5 +210,10 @@ html {
       background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
       overflow: hidden;
     }
+
+    body {
+      height: 100%;
+      overflow-y: hidden;
+   }
     
   }
