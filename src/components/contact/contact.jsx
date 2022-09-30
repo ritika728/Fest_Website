@@ -1,13 +1,16 @@
 import React from 'react'
 import './contact.css'
+import EmailIcon from '@mui/icons-material/Email';
+import { Link } from '@mui/material';
+import { width } from '@mui/system';
 
 const Contact = () => {
   return (
     <div>
 	
    <div id="stars"></div>
-        <div id="stars2"></div> 
-        <div id="stars3"></div>
+        {/* <div id="stars2"></div>  */}
+        {/* <div id="stars3"></div> */}
   <div className='main'>
   <h1 className="main_excom">EXECUTIVE COMMITEE</h1>
       <div className="sectionteam">
@@ -17,7 +20,10 @@ const Contact = () => {
 						</div>
 						<div class="person-info">
 							<h3 class="full-name">Dr. Jeetu Sharma</h3>
+							<div className='mail'>
 							<span class="speciality">Branch Counsler</span>
+							<Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 					
@@ -25,10 +31,13 @@ const Contact = () => {
 				<div className="team">
 					<div className="single-person">
 						<div className="person-image1">
-						</div>
+						</div> 
 						<div className="person-info">
 							<h3 class="full-name">Heena Thadani</h3>
+							<div className='mail'>
 							<span className="speciality">Chairperson</span>
+							<Link href="mailto:heenathadani@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -37,8 +46,12 @@ const Contact = () => {
 						<div className="person-image2">
 						</div>
 						<div className="person-info">
+						
 							<h3 class="full-name">Jahnavi Sharma</h3>
+							<div className='mail'>
 							<span className="speciality">Vice-Chair</span>
+							<Link href="mailto:jahnavisharma_09@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -46,14 +59,17 @@ const Contact = () => {
 				
 			
 	</div>
-	<div className="sectionteam3">
+	<div className="sectionteam">
 	<div class="team">
 					<div class="single-person">
 						<div class="person-image3">
 						</div>
 						<div class="person-info">
 							<h3 class="full-name">Nivedita Vyas</h3>
+							<div className='mail'>
 							<span class="speciality">Secretary</span>
+							<Link href="mailto:niveditavyas@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -62,8 +78,12 @@ const Contact = () => {
 						<div class="person-image4">	
 						</div>
 						<div class="person-info">
+							
 							<h3 class="full-name">Ritika Malik</h3>
+							<div className='mail'>
 							<span class="speciality">WebMaster</span>
+							<Link href="mailto:ritikamalik@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 					
@@ -75,7 +95,10 @@ const Contact = () => {
 						</div>
 						<div class="person-info">
 							<h3 class="full-name">Shobhna Sharma</h3>
+							<div className='mail'>
 							<span class="speciality">Treasurer</span>
+							<Link href="mailto:sshobhna005@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 					
@@ -184,7 +207,7 @@ const Contact = () => {
 							<h3 class="full-name">Dr. Jeetu Sharma</h3>
 							<span className="speciality">Counseler</span>
 							{/* <i class="fa fa-envelope" aria-hidden="true">nbfdnhdnd</i> */}
-							<span class="material-icons">mail</span>
+							
 						</div>
 					</div>
 				</div>

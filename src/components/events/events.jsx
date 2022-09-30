@@ -35,14 +35,12 @@ const Events = () => {
 <h1>Event details🌟</h1>
 <h3>Date: 7th- 9th October 2022</h3>
 <h3>Venue: Mini Auditorium and ABB01</h3></p>
-          <button class="btn card_btn">Read More</button>
+<button class="btn card_btn"><a href={"https://bit.ly/IEEE-Day-Celebrations2022"}></a>REGISTER HERE</button>
         </div>
       </div>
     </li>
   </ul>
 </div>
-
-<h3 class="made_by">Made with ♡</h3>
       </div>
     </div>
   )
