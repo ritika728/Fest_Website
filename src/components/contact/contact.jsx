@@ -183,6 +183,8 @@ const Contact = () => {
 						<div className="person-info">
 							<h3 class="full-name">Dr. Jeetu Sharma</h3>
 							<span className="speciality">Counseler</span>
+							{/* <i class="fa fa-envelope" aria-hidden="true">nbfdnhdnd</i> */}
+							<span class="material-icons">mail</span>
 						</div>
 					</div>
 				</div>

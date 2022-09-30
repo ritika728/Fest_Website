@@ -1,5 +1,5 @@
 import React from 'react'
-import Glogo from '../assests/gtbit.jpeg'
+import Glogo from '../assests/gtbit2.png'
 import './partners.css'
 import Dtu from '../assests/dtu.png'
 
@@ -8,15 +8,15 @@ const partners = () => {
     <div>
       
       <div id="stars"></div>
-        <div id="stars2"></div> 
-        <div id="stars3"></div>
+        {/* <div id="stars2"></div>  */}
+        {/* <div id="stars3"></div> */}
       <h1 className='partnersheading'>OUR COMMUNITY PARTNERS</h1>
       <div className='partners'>
 <div id="container">	
 	
 	<div class="product-details">
 		
-	<h1>IEEE DTU SB</h1>
+	<h1 className="dtuheading">IEEE DTU SB</h1>
 	<span class="hint-star star">
 		<i class="fa fa-star" aria-hidden="true"></i>
 		<i class="fa fa-star" aria-hidden="true"></i>
@@ -32,7 +32,7 @@ const partners = () => {
 <div class="control">
 	
 	<button class="btn">
-  <span class="buy"><a href={"https://ieeedtu.in/"}>WEBSITE</a></span>
+  <span><a class="buy" href={"https://ieeedtu.in/"}>WEBSITE</a></span>
  </button>
 	
 </div>

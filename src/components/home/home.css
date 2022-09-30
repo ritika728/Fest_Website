@@ -40,7 +40,7 @@
 
 .submit{
     width: 150px;
-    font-family:'Montserrat';
+    font-family:'Montserrat' !important;
     font-weight: bolder;
     font-size: 18px;
     background-color: rgb(136,146,176);
@@ -162,7 +162,7 @@ html {
     }
     .heading{
       font-size: 190%;
-      font-weight: bolder !important;
+      font-weight: 900 !important;
       margin-bottom: 30px;
     }
     .timer{
@@ -181,9 +181,11 @@ html {
   }
   
   .submit{
-      width: 75px;
+    text-align: center !important;
+    justify-content: center;
+      width: 80px;
       font-family:'Montserrat';
-      font-weight: bolder;
+      font-weight:900;
       font-size: 10px;
       background-color: rgb(136,146,176);
       color: black;
