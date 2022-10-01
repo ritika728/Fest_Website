@@ -19,7 +19,7 @@ const Events = () => {
         <div class="card_content">
           <p className="card_text">Sometimes it's the journey that teaches you a lot about your destination.                     ~Drake  
           <p className="card_text">With the enthralling responses last year for the annual ritual of IEEE Day, this year we’ve planned an astonishing series of events  too🌟. </p> Are you excited and onboard with us for IEEE day celebrations this year?   IEEE Student Branch, Mody University of Science and Technology along with its community partner IEEE Delhi Technological University Student Branch and IEEE Guru Tegh Bahadur Institute of Technology Student Branch bringing to you a 3 Day Fiesta of events and exposures that you’ll cherish for a lifetime💫.  We have planned for you various technical events, hands-on workshops, relay marathons, cultural evenings, and much much more☄️. </p>
-          <button class="btn card_btn"><a href={"https://bit.ly/IEEE-Day-Celebrations2022"}></a>REGISTER HERE</button>
+          
         </div>
       </div>
     </li>
@@ -35,12 +35,12 @@ const Events = () => {
 <h1>Event details🌟</h1>
 <h3>Date: 7th- 9th October 2022</h3>
 <h3>Venue: Mini Auditorium and ABB01</h3></p>
-<button class="btn card_btn"><a href={"https://bit.ly/IEEE-Day-Celebrations2022"}></a>REGISTER HERE</button>
         </div>
       </div>
     </li>
   </ul>
 </div>
+<button class="btn card_btn"><a href={"https://bit.ly/IEEE-Day-Celebrations2022"}></a>REGISTER HERE</button>
       </div>
     </div>
   )

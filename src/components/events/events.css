@@ -34,18 +34,20 @@ img {
 }
 
 .btn {
-  color: #ffffff;
+  color: black !important; 
   padding: 12px !important;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "lato", sans-serif;
   text-transform: uppercase;
   border-radius: 9px;
   font-weight: 900;
   display: block;
-  width: 100%;
+  width: 60%;
   cursor: pointer;
   border: 7px solid rgba(255, 255, 255, 0.2);
   background: transparent;
+  margin: 0 auto !important;
+  margin-top: 50px !important;
 }
 
 
