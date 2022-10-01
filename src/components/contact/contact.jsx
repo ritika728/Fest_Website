@@ -37,7 +37,7 @@ const Contact = () => {
 							<h3 class="full-name">Heena Thadani</h3>
 							<div className='mail'>
 							<span className="speciality">Chairperson</span>
-							<Link href="mailto:heenathadani@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							<Link className="iconn" href="mailto:heenathadani@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 						</div>
 						</div>
 					</div>
@@ -116,7 +116,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Dr. Niranjan Lal</h3>
+							<div className='mail'>
 							<span className="speciality">Counseler</span>
+							<Link className="iconn" href="mailto:niranjanlal@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -126,9 +129,13 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Purvasri Das</h3>
+							<div className='mail'>
 							<span className="speciality">Chairperson</span>
+							<Link className="iconn" href="mailto:purva3112@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 						</div>
+						
 					</div>
+				</div>
 				</div>
 				<div className="team">
 					<div className="single-person">
@@ -136,7 +143,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Vaidehi Purohit</h3>
+							<div className='mail'>
 							<span className="speciality">Vice-Chair</span>
+							<Link className="iconn" href="mailto:vaidehipurohit@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -146,7 +156,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Teesta Singh</h3>
+							<div className='mail'>
 							<span className="speciality">Secretary</span>
+							<Link className="iconn" href="mailto:teestasingh@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -161,7 +174,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Dr. Anand Sharma</h3>
+							<div className='mail'>
 							<span className="speciality">Counseler</span>
+							<Link className="iconn" href="mailto:anandsharma@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -171,7 +187,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Vanshika Dadhich</h3>
+							<div className='mail'>
 							<span className="speciality">Chairperson</span>
+							<Link className="iconn" href="mailto:vanshika.dadhich@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -181,7 +200,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Bhumika Meena</h3>
+							<div className='mail'>
 							<span className="speciality">Vice-Chair</span>
+							<Link className="iconn" href="mailto:bhumikamina_26@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -191,7 +213,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Ishika Chaudhary</h3>
+							<div className='mail'>
 							<span className="speciality">Secretary</span>
+							<Link className="iconn" href="mailto:ishikachaudhary@ieee.org@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -206,9 +231,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Dr. Jeetu Sharma</h3>
+							<div className='mail'>
 							<span className="speciality">Counseler</span>
-							{/* <i class="fa fa-envelope" aria-hidden="true">nbfdnhdnd</i> */}
-							
+							<Link className="iconn" href="jeeetusharma@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -218,8 +244,11 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Anuradha Sharma</h3>
+							<div className='mail'>
 							<span className="speciality">Chairperson</span>
+							<Link className="iconn" href="mailto:anuradhasharma@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 						</div>
+					</div>
 					</div>
 				</div>
 				<div className="team">
@@ -228,7 +257,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Drishti Sharan</h3>
+							<div className='mail'>
 							<span className="speciality">Vice-Chair</span>
+							<Link className="iconn" href="mailto:drishti.sharan@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -238,7 +270,10 @@ const Contact = () => {
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Simran Khan</h3>
+							<div className='mail'>
 							<span className="speciality">Secretary</span>
+							<Link className="iconn" href="mailto:simrankhan@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							</div>
 						</div>
 					</div>
 				</div>
