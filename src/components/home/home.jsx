@@ -58,7 +58,7 @@ const navigate=useNavigate();
         <div className='homemain'>
             <div className='festinfo' id='title'>
               <div className='image'></div>
-                 <span className="heading">IEEE DAY CELEBRATIONS'22</span> <br/>
+                 <span className="heading">IEEE DAY CELEBRATIONS 2022</span> <br/>
                 {/* <span >TAGLINE </span><br/> */}
                 <br/>
                 <span className="dates">07/10/2022-09/10/2022</span>
