@@ -25,6 +25,18 @@ const about = () => {
 </div>
 </div>
             </div>
+            <div className='ieeemust'>
+              
+              <h1 className='ieeemustheading'>IEEE DAY 2022</h1>
+                  <div className='ieeemusttextblock'>
+                    
+              <p className='ieeedaytext'>IEEE Day commemorates the anniversary of the first time when IEEE members gathered to share their technical ideas, which took place in 1884. Worldwide celebrations demonstrate the ways thousands of IEEE members in local communities join together to collaborate on ideas that leverage technology for a better tomorrow.</p>
+  <div className='group_photo2'>
+  </div>
+  </div>
+              </div>
+
+
 
         </div>
     </div>

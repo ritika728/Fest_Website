@@ -130,6 +130,9 @@ img {
     flex-direction: column;
   }
 
+  .card_text{
+    font-size: 80%;
+  }
   .card{
     max-width: 300px;
     /* margin-left: 30px; */
