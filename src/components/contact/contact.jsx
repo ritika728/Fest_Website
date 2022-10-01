@@ -13,6 +13,7 @@ const Contact = () => {
         {/* <div id="stars3"></div> */}
   <div className='main'>
   <h1 className="main_excom">EXECUTIVE COMMITEE</h1>
+  
       <div className="sectionteam">
 	  <div class="team">
 					<div class="single-person">
@@ -124,7 +125,7 @@ const Contact = () => {
 						<div className="person-image8">
 						</div>
 						<div className="person-info">
-							<h3 class="full-name">Puravsri Das</h3>
+							<h3 class="full-name">Purvasri Das</h3>
 							<span className="speciality">Chairperson</span>
 						</div>
 					</div>
@@ -152,7 +153,7 @@ const Contact = () => {
 				</div>		
 	</div>
 	<div className='wie'>
-	<h1 className="main_excom2">COMPUTER SOCIETY - IEEE MUST</h1>
+	<h1 className="main_excom2" style={{marginBottom:"10px"}}>COMPUTER SOCIETY - IEEE MUST</h1>
 	<div className="sectionteam2">
 	<div className="team">
 					<div className="single-person">
@@ -197,7 +198,7 @@ const Contact = () => {
 				</div>			
 	</div>
 	<div className='wie'>
-	<h1 className="main_excom2">COMMUNICATIONS SOCIETY - IEEE MUST</h1>
+	<h1 className="main_excom2" style={{marginTop:"35px" , marginBottom:"10px"}}>COMMUNICATIONS SOCIETY - IEEE MUST</h1>
 	<div className="sectionteam2">
 	<div className="team">
 					<div className="single-person">

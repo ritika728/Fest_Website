@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 .main_excom{
   background: -webkit-linear-gradient(white, #38495a);
   background-clip:text;
@@ -151,7 +152,7 @@
     height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -70px;
+    margin-top: 30px;
     
 }
 .person-image5 {
@@ -167,7 +168,7 @@
     height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -70px;
+    margin-top: 30px;
 }
 
 .person-image6 {
@@ -569,13 +570,22 @@ html {
 
 
   @media screen and (max-width:600px) {
+
     body{
       overflow: auto;
     }
 
+  
     .main_excom{
       margin-top: 60px;
       font-size: 180%;
+    }
+
+    .main_excom2{
+      margin-top: 10px;
+      font-size: 100%;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     .sectionteam{
       display: flex;
