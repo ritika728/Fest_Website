@@ -16,7 +16,7 @@ const partners = () => {
 	
 	<div class="product-details">
 		
-	<h1 className="dtuheading">IEEE DTU STudent Branch</h1>
+	<h1 className="dtuheading">IEEE DTU Student Branch</h1>
 	<span class="hint-star star">
 		<i class="fa fa-star" aria-hidden="true"></i>
 		<i class="fa fa-star" aria-hidden="true"></i>
@@ -53,7 +53,7 @@ const partners = () => {
 	
 	<div class="product-details">
 		
-	<h1>IEEE GTBIT Student Branch</h1>
+	<h1 className='heading7'>IEEE GTBIT Student Branch</h1>
 	<span class="hint-star star">
 		<i class="fa fa-star" aria-hidden="true"></i>
 		<i class="fa fa-star" aria-hidden="true"></i>

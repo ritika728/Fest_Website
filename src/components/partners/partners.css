@@ -236,7 +236,7 @@
 
   .partnersheading{
     margin-top: 80px;
-    font-size: 165%;
+    font-size: 130%;
     font-weight: 800;
     margin-left: 10px;
     margin-right: 10px;
@@ -257,9 +257,12 @@
   }
 
   .dtuheading{
-    font-size: 22px !important;
+    font-size: 15px !important;
   }
 
+  .heading7{
+    font-size: 15px !important;
+  }
   .information{
     font-size: 80% !important;
     font-weight: 500 !important;
