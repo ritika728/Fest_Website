@@ -7,7 +7,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 .main2{
   max-width: 1200px;
   display: flex;
@@ -23,7 +22,11 @@ h1 {
     font-weight: 400;
     text-align: center;
 }
-
+body{
+  /* position: fixed; */
+  overflow: hidden;
+  
+}
 img {
   height: auto;
   max-width: 100%;

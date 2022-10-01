@@ -53,15 +53,15 @@ const navigate=useNavigate();
       <div>
         
         <div id="stars"></div>
-        <div id="stars2"></div> 
-        <div id="stars3"></div>
+        {/* <div id="stars2"></div>  */}
+        {/* <div id="stars3"></div> */}
         <div className='homemain'>
             <div className='festinfo' id='title'>
               <div className='image'></div>
                  <span className="heading">IEEE DAY CELEBRATIONS'22</span> <br/>
                 {/* <span >TAGLINE </span><br/> */}
                 <br/>
-                <span>07/10/2022 - 09/10/2022</span>
+                <span className="dates">07/10/2022-09/10/2022</span>
                 <div className='buttons'>
             <button onClick={()=>{
             window.scrollTo(0,0);
@@ -71,8 +71,8 @@ const navigate=useNavigate();
             navigate("/events");}} type='submit'className="submit">EVENTS</button>
              <button onClick={()=>{
             window.scrollTo(0,0);
-            navigate("/about");}} type='schedule'className="submit">SCHEDULE</button>
-            <button onClick={()=>{
+            // navigate("/about");}} type='schedule'className="submit">SCHEDULE</button>
+            // <button onClick={()=>{
             window.scrollTo(0,0);
             navigate("/contact");}} type='submit'className="submit">CONTACT</button>    
             </div>

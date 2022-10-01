@@ -1,13 +1,20 @@
+import image from 'confetti/src/models/image';
 import React from 'react';
 import { elastic as Menu } from 'react-burger-menu';
 import './SideBar.css';
+import Day from '../assests/day.png'
 
 
 export default props => {
   
   return (
-    
+    <div>
+  
     <Menu>
+    <img classname='daylogo' src={Day}></img>
+    <a className="menu-item" href="/">
+        Home
+      </a>
       <a className="menu-item" href="/about">
         About
       </a>
@@ -21,5 +28,6 @@ export default props => {
         Community Partners
       </a>
     </Menu>
+    </div>
   );
 };

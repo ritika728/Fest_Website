@@ -6,6 +6,7 @@
     left: 20px;
     top: 20px;
   }
+
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
@@ -43,6 +44,7 @@
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
+    font-family: "lato", sans-serif;
 
   }
   

@@ -5,7 +5,7 @@ import Itinerary from '../assests/itinerary.jpeg'
 
 const Events = () => {
   return (
-    <div>
+    <div classname="main3">
            <div id="stars"></div>
         {/* <div id="stars2"></div>  */}
         {/* <div id="stars3"></div> */}
