@@ -568,6 +568,32 @@ html {
   }
 
 
+  @media screen and (max-width:600px) {
+    body{
+      overflow: auto;
+    }
+
+    .main_excom{
+      margin-top: 60px;
+      font-size: 180%;
+    }
+    .sectionteam{
+      display: flex;
+      flex-direction: column;
+    }
+    .sectionteam2{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .sectionteam3{
+      display: flex;
+      flex-direction: column;
+    }
+  
+  }
+
+
 #stars {
   width: 1px;
   height: 1px;
@@ -624,22 +650,3 @@ html {
   flex-direction: row;
 }
 
-@media screen and (max-width:600px) {
-  body{
-    overflow: auto;
-  }
-  .sectionteam{
-    display: flex;
-    flex-direction: column;
-  }
-  .sectionteam2{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sectionteam3{
-    display: flex;
-    flex-direction: column;
-  }
-
-}
