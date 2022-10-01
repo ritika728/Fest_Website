@@ -22,8 +22,8 @@ const Contact = () => {
 						<div class="person-info">
 							<h3 class="full-name">Dr. Jeetu Sharma</h3>
 							<div className='mail'>
-							<span class="speciality">Branch Counsler</span>
-							<Link href="mailto:ritikamalik100102@gmail.com?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							<span class="speciality">Branch Counselor</span>
+							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 						</div>
 						</div>
 					</div>
@@ -117,8 +117,8 @@ const Contact = () => {
 						<div className="person-info">
 							<h3 class="full-name">Dr. Niranjan Lal</h3>
 							<div className='mail'>
-							<span className="speciality">Counseler</span>
-							<Link className="iconn" href="mailto:niranjanlal@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							<span className="speciality">Faculty Advisor</span>
+							<Link className="iconn" href="mailto:niranjanlal.cet@maodyuniversity.ac.in?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 						</div>
 						</div>
 					</div>
@@ -175,8 +175,8 @@ const Contact = () => {
 						<div className="person-info">
 							<h3 class="full-name">Dr. Anand Sharma</h3>
 							<div className='mail'>
-							<span className="speciality">Counseler</span>
-							<Link className="iconn" href="mailto:anandsharma@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
+							<span className="speciality">Faculty Advisor</span>
+							<Link className="iconn" href="mailto:anandsharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 						</div>
 						</div>
 					</div>
