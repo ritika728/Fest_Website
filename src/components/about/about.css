@@ -166,7 +166,7 @@
 
   @media screen and (max-width:600px) {
     .ieeedaytext{
-      font-size: 90% !important;
+      font-size: 70% !important;
       width: 90%;
       text-align: center !important;
     }
@@ -185,12 +185,12 @@
     }
 
     .ieeetext{
-      font-size: 90%;
+      font-size: 70%;
       width: 100%;
       text-align: center !important;
     }
     .ieeemusttext{
-      font-size: 90%;
+      font-size: 70%;
       width: 90%;
       text-align: center !important;
     }
