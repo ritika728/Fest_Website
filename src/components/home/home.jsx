@@ -50,11 +50,11 @@ const navigate=useNavigate();
   return (
     
     
-      <div>
+      <div className="homepage">
         
         <div id="stars"></div>
-        {/* <div id="stars2"></div>  */}
-        {/* <div id="stars3"></div> */}
+        <div id="stars2"></div> 
+        <div id="stars3"></div>
         <div className='homemain'>
             <div className='festinfo' id='title'>
               <div className='image'></div>
@@ -79,6 +79,7 @@ const navigate=useNavigate();
             <div className='timer'>
           {timerComponents.length ? timerComponents : <span>Time's up!</span>}
           </div>
+          <div><a className="submit2"href={"https://bit.ly/IEEE-Day-Celebrations2022"} target={'_blank'}>REGISTER</a></div>
             </div>
             
           

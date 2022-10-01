@@ -14,8 +14,6 @@
   font-size: 55px;
 }
 
-
-
 .festinfo{
   margin: 0 auto;
 }
@@ -30,11 +28,12 @@
 
 .submit{
     width: 150px;
-    font-family:'Montserrat' !important;
+    font-family:"lato" !important;
     font-weight: bolder;
     font-size: 18px;
     background-color: rgb(136,146,176);
-    color: white;
+    color:black;
+    box-shadow: 0 10px 30px 1px grey;
     border-style: none;
     border-radius: 0.3rem;
     justify-items: center;
@@ -51,9 +50,17 @@
     color: black;
     font-size: 22px;
 }
+.submit2:hover{
+  cursor: pointer;
+  width: 270px;
+  /* background-color: aquamarine; */
+  background-color: -webkit-linear-gradient(white, #38495a);
+  color: black;
+  font-size: 22px;
+}
 
-html {
-    /* height: 100%; */
+body {
+    height: 200%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow: hidden;
   }
@@ -120,7 +127,7 @@ html {
     font-weight: 300;
     font-size: 40px;
     letter-spacing: 10px;
-    margin-top: -200px;
+    margin-top: -250px;
     padding-left: 10px;
   }
   #title span {
@@ -129,6 +136,25 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .submit2{
+    text-align: center !important;
+    justify-content: center;
+      width: 300px;
+      font-family:"lato";
+      font-weight:900;
+      font-size: 20px;
+      box-shadow: 0 10px 30px 1px grey;
+      background-color: rgb(136,146,176);
+      color: black;
+      border-style: none;
+      border-radius: 0.3rem;
+      justify-items: center;
+      display:block;
+      padding: 25px;
+      margin: 10px;
+      margin-top: 120px !important;
+      margin: 0 auto;
+    }
   
   @keyframes animStar {
     from {
@@ -164,7 +190,7 @@ html {
       position: fixed;
     }
     #title{
-      margin-top: -180px;
+      margin-top: -220px;
       font-size: 80%;
     
     }
@@ -179,8 +205,8 @@ html {
       margin-right: 20px;
       margin-left: 20px;
       font-size: 170%;
-      margin-top: 70px;
-      margin-bottom: -60px;
+      margin-top: 50px;
+      margin-bottom: -40px;
   }
   .buttons{
       display: flex;
@@ -196,9 +222,9 @@ html {
     text-align: center !important;
     justify-content: center;
       width: 80px;
-      font-family:'Montserrat';
+      font-family:"lato";
       font-weight:900;
-      font-size: 10px;
+      font-size: 12px;
       background-color: rgb(136,146,176);
       color: black;
       border-style: none;
@@ -208,18 +234,45 @@ html {
       padding: 15px;
       margin: 10px;
     }
+    .submit2{
+      text-align: center !important;
+      justify-content: center;
+        width: 300px;
+        font-family:"lato";
+        font-weight:900;
+        font-size: 20px;
+        box-shadow: 0 10px 30px 1px grey;
+        background-color: rgb(136,146,176);
+        color: black;
+        border-style: none;
+        border-radius: 0.3rem;
+        justify-items: center;
+        display:block;
+        padding: 15px;
+        margin: 10px;
+        margin-top: 120px !important;
+        margin: 0 auto;
+      }
+    
   
   .submit:hover{
+    
       cursor: pointer;
       width: 40% !important;
       color: black;
       font-size: 18px;
   }
+  .submit2:hover{
+    cursor: pointer;
+    width: 60% !important;
+    color: black;
+    font-size: 18px;
+}
   
   html {
-      height: 100%;
+      height: 800%;
       background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-      overflow: hidden;
+      /* overflow: hidden; */
     }
 
     body {
