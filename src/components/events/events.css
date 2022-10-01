@@ -33,7 +33,7 @@ img {
   vertical-align: middle;
 }
 
-.btn {
+.btnn {
   color: black !important; 
   padding: 12px !important;
   font-size: 18px;
@@ -42,10 +42,10 @@ img {
   border-radius: 9px;
   font-weight: 900;
   display: block;
-  width: 60%;
+  width: 40%;
   cursor: pointer;
   border: 7px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
+  background:lightblue;
   margin: 0 auto !important;
   margin-top: 50px !important;
 }
@@ -139,5 +139,10 @@ img {
     max-width: 300px;
     /* margin-left: 30px; */
     margin-bottom: 30px;
+  }
+
+  .btnn{
+    margin-top: -10px !important;
+    font-size: 90%;
   }
 }
