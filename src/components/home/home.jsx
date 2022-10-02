@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom';
+import Logo from '../assests/newlogo.png'
 
 
 const Home = () => {
@@ -56,6 +57,9 @@ const navigate=useNavigate();
         <div id="stars2"></div> 
         <div id="stars3"></div>
         <div className='homemain'>
+          <div>
+            <img  className='newlogo' src={Logo} alt="" ></img>
+          </div>
             <div className='festinfo' id='title'>
               <div className='image'></div>
                  <span className="heading">IEEE DAY CELEBRATIONS 2022</span> <br/>

@@ -10,6 +10,12 @@
     margin-bottom: -60px;
 }
 
+.newlogo{
+  width: 20%;
+  margin-left: 1220px;
+  margin-top: -110px !important;
+}
+
 .heading{
   font-size: 55px;
 }
@@ -136,6 +142,7 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
   .submit2{
     text-align: center !important;
     justify-content: center;
@@ -166,6 +173,13 @@ body {
   }
 
   @media screen and (max-width:600px) {
+
+    .newlogo{
+      width: 60%;
+      margin: 0 auto;
+      margin-top: -90px !important;
+      margin-left: 160px;
+    }
 
     .dates{
       font-size: 80%;

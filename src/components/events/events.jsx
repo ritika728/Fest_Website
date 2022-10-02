@@ -40,7 +40,7 @@ const Events = () => {
     </li>
   </ul>
 </div>
-<button class="btnn card_btn"><a href={"https://bit.ly/IEEE-Day-Celebrations2022"}></a>REGISTER HERE</button>
+<button class="btnn card_btn"><a href={"https://bit.ly/IEEE-Day-Celebrations2022"} target={'_blank'}></a>REGISTER HERE</button>
       </div>
     </div>
   )
