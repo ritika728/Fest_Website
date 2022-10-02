@@ -126,7 +126,7 @@ img {
   color: black;
 }
 
-@media screen and (min-width:50px) and (max-width:600px) {
+@media screen and (max-width:1200px) {
   .cards{
     display: flex;
     flex-direction: column;
@@ -136,9 +136,10 @@ img {
     font-size: 80%;
   }
   .card{
-    max-width: 300px;
+    width: 75%;
     margin-left: 20px;
     margin-bottom: 30px;
+    margin: 0 auto;
   }
 
   .btnn{
