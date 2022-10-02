@@ -120,12 +120,12 @@
     height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: 30px;
+    margin-top: 25px;
     
 }
 .person-image3 {
   
-    background-image: url(../assests/nivedita.png);
+    background-image: url(../assests/nivedita.jpeg);
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
@@ -136,12 +136,12 @@
     height: 100%;
     border-radius: 50%;
     background-size: 50%;
-    margin-top: -70px;
+    margin-top: 30px;
     
 }
 .person-image4 {
 
-    background-image: url(../assests/ritika.png);
+    background-image: url(../assests/ritika.jpeg);
     background-repeat: no-repeat;
     background-size: cover !important;
     background-position: center;
@@ -586,6 +586,9 @@ html {
       font-size: 180%;
     }
 
+    .person-image3{
+      margin-top: -90px;
+    }
     .main_excom2{
       margin-top: 10px;
       font-size: 100%;

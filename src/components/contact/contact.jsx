@@ -22,7 +22,7 @@ const Contact = () => {
 						<div class="person-info">
 							<h3 class="full-name">Dr. Jeetu Sharma</h3>
 							<div className='mail'>
-							<span class="speciality">Branch Counselor</span>
+							<span class="speciality" style={{fontSize:"12px"}}>Branch Counselor</span>
 							<Link href="mailto:jeetusharma.cet@modyuniversity.ac.in?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 						</div>
 						</div>
@@ -232,7 +232,7 @@ const Contact = () => {
 						<div className="person-info">
 							<h3 class="full-name">Dr. Jeetu Sharma</h3>
 							<div className='mail'>
-							<span className="speciality">Counseler</span>
+							<span className="speciality" style={{fontSize:"12px"}}>Branch Counselor></span>
 							<Link className="iconn" href="jeeetusharma@ieee.org?"style={{marginLeft:"6px"}}className="icons" target="_blank"><EmailIcon/></Link>
 							</div>
 						</div>
