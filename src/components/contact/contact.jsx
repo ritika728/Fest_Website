@@ -209,7 +209,7 @@ const Contact = () => {
 				</div>
 				<div className="team">
 					<div className="single-person">
-						<div className="person-image2">
+						<div className="person-image18">
 						</div>
 						<div className="person-info">
 							<h3 class="full-name">Ishika Chaudhary</h3>
