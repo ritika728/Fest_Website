@@ -2,6 +2,7 @@ import React from 'react'
 import './events.css'
 import Poster from '../assests/poster.jpeg'
 import Itinerary from '../assests/itinerary.jpeg'
+import Opening from '../assests/opening.jpeg'
 
 const Events = () => {
   return (
@@ -38,9 +39,27 @@ const Events = () => {
         </div>
       </div>
     </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src={Opening}></img></div>
+        <div class="card_content">
+          
+          <p className="card_text">"Unity is strength when there is team work and collaboration, wonderful things can be achieved."
+
+
+          <p className="card_text">You all are cordially invited to the Grand Opening Ceremony of <b>IEEE Day Celebrations</b> 🌟.</p>
+
+<p className='card_text'>IEEE Student Branch Mody University of science and Technology along with its collaborators IEEE DTU SB and IEEE GTBIT SB provides you with the platform to learn and  grow together this IEEE Day and connect and network with delegates across student branches🤝.</p>
+
+<h1>Opening Ceremony🌟</h1>
+<h3>Date: 9th October 2022</h3>
+<h3>Venue: Mini Auditorium </h3></p>
+        </div>
+      </div>
+    </li>
   </ul>
 </div>
-<button class="btnn card_btn"><a href={"https://bit.ly/IEEE-Day-Celebrations2022"} target={'_blank'}></a>REGISTER HERE</button>
+<div><a className="submit3"href={"https://bit.ly/IEEE-Day-Celebrations2022"} target={'_blank'}>REGISTER</a></div>
       </div>
     </div>
   )

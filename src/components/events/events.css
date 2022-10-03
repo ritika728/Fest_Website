@@ -50,6 +50,14 @@ img {
   margin-top: 50px !important;
 }
 
+.submit3:hover{
+  cursor: pointer;
+  width: 40% !important;
+  color: black;
+  font-size: 18px;
+
+}
+
 
 
 .btn:hover {
@@ -126,12 +134,59 @@ img {
   color: black;
 }
 
+.submit3{
+  text-align: center !important;
+  justify-content: center;
+    width: 500px;
+    font-family:"lato";
+    font-weight:900;
+    font-size: 20px;
+    box-shadow: 0 10px 30px 1px grey;
+    background-color: rgb(136,146,176);
+    color: black;
+    border-style: none;
+    border-radius: 0.3rem;
+    justify-items: center;
+    display:block;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 30px !important;
+    margin: 0 auto;
+    letter-spacing: 9px;
+  }
+
 @media screen and (max-width:1200px) {
   .cards{
     display: flex;
     flex-direction: column;
   }
 
+  .submit3{
+    text-align: center !important;
+    justify-content: center;
+      width: 300px;
+      font-family:"lato";
+      font-weight:900;
+      font-size: 20px;
+      box-shadow: 0 10px 30px 1px grey;
+      background-color: rgb(136,146,176);
+      color: black;
+      border-style: none;
+      border-radius: 0.3rem;
+      justify-items: center;
+      display:block;
+      padding: 15px;
+      margin: 0 auto;
+      letter-spacing: 9px;
+    }
+
+    .submit3:hover{
+      cursor: pointer;
+      width: 60% !important;
+      color: black;
+      font-size: 18px;
+    
+    }
   .card_text{
     font-size: 80%;
   }
