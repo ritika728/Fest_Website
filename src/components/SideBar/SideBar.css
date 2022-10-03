@@ -43,8 +43,9 @@
   .bm-menu {
     background: #373a47;
     padding: 2.5em 1.5em 0;
-    font-size: 1.15em;
+    font-size: 0.9em;
     font-family: "lato", sans-serif;
+    font-weight: 900;
 
   }
   

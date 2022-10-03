@@ -49,6 +49,7 @@ const partners = () => {
 </div>
 
 </div>
+<h1 className='partnersheading2'>OUR COMMUNITY PARTNERS</h1>
 <div id="container">	
 	
 	<div class="product-details">
