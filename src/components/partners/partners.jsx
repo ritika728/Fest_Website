@@ -10,7 +10,7 @@ const partners = () => {
       <div id="stars"></div>
         {/* <div id="stars2"></div>  */}
         {/* <div id="stars3"></div> */}
-      <h1 className='partnersheading'>OUR COMMUNITY PARTNERS</h1>
+      <h1 className='partnersheading'>COLLABORATORS</h1>
       <div className='partners'>
 <div id="container">	
 	

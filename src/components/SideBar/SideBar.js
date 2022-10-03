@@ -25,7 +25,7 @@ export default props => {
         Contact
       </a>
       <a className="menu-item" href="/partners">
-        Community Partners
+        Collaborators
       </a>
     </Menu>
     </div>
