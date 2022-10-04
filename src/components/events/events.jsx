@@ -3,6 +3,8 @@ import './events.css'
 import Poster from '../assests/poster.jpeg'
 import Itinerary from '../assests/itinerary.jpeg'
 import Opening from '../assests/opening.jpeg'
+import Quiz from '../assests/quiz.jpeg'
+import Website from '../assests/website.jpeg'
 
 const Events = () => {
   return (
@@ -39,7 +41,7 @@ const Events = () => {
         </div>
       </div>
     </li>
-    <li class="cards_item">
+    <li class="cards_item" >
       <div class="card">
         <div class="card_image"><img src={Opening}></img></div>
         <div class="card_content">
@@ -60,6 +62,36 @@ const Events = () => {
   </ul>
 </div>
 <div><a className="submit3"href={"https://bit.ly/IEEE-Day-Celebrations2022"} target={'_blank'}>REGISTER</a></div>
+<div class="main2" style={{marginTop:"50px"}}>
+  <ul class="cards">
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src={Website}></img></div>
+        <div class="card_content">
+          <p className="card_text" style={{fontSize:"20px"}}>It gives us great pleasure and honor to announce the launch of our website, which will give you the most latest details on all the events of the IEEE Day Celebrations 2022 .</p> 
+          <p className="card_text" style={{fontSize:"20px"}}>Check it out here : <a href={'https://bit.ly/ieeedaycelebrations '}>LINK</a></p>
+          
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src={Quiz}></img></div>
+        <div class="card_content">
+          <h2 class="card_title">ITINERARY</h2>
+          <p className="card_text">IEEE Mody University of Science and Technology in collaboration with IEEE DTU and IEEE GTBIT introduces its first event for IEEE Day Celebrations’22 ,"Quiz on Debugging"  where you figure out the logics and corrections of the codes. So bring in your laptops and let’s dive in the thrilling experience of logics👩‍💻.
+
+<h1>Event details🌟</h1>
+<h3>🗓️-7th October 2022</h3>
+<h3>🕰️-2:45 to 4:30 pm</h3>
+<h3>Venue- ABB 01 </h3></p>
+        </div>
+      </div>
+    </li>
+  
+  </ul>
+</div>
       </div>
     </div>
   )
