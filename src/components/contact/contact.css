@@ -582,7 +582,7 @@
 
 html { 
     /* height: 140%; */
-    height: 150%;
+    height: 300%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow:auto;
     scroll-behavior: smooth;
