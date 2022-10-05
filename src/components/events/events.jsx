@@ -7,6 +7,7 @@ import Quiz from '../assests/quiz.jpeg'
 import Website from '../assests/website.jpeg'
 import Relay from '../assests/relay.jpeg'
 import Ml from '../assests/ml.jpeg'
+import Speaker from '../assests/speaker.jpeg'
 
 const Events = () => {
   return (
@@ -138,6 +139,34 @@ const Events = () => {
 <h1>Event details🌟</h1>
 <h3>Date: 7th October 2022</h3>
 <h3>Time:11:30 a.m.-1:30 p.m.</h3>
+<h3>Venue: Mini Auditorium</h3>
+
+
+          
+        </div>
+      </div>
+    </li>
+    
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src={Speaker}></img></div>
+        <div class="card_content">
+          <p className="card_text" style={{fontSize:"18px"}}>“Technology is best when it brings people together.” 💻</p>
+          <p className="card_text" style={{fontSize:"18px"}}>IEEE Student Branch Mody University of science and Technology along with its community partners IEEE DTU SB and IEEE GTBIT SB brings to you A coder’s journey by Mr. Piyush Khandelwal.
+</p> 
+<p>
+<h1 style={{marginTop:"50px" , marginBottom:"50px"}}>Speaker details🌟</h1>
+<p>🎤Mr. Piyush Khandelwal
+     <p>Director W3 grads</p>
+
+<p> Mentor GeeksforGeeks for 2 years</p>
+      <p>M.Tech in CSE from Delhi    Technological University, Delhi.</p>
+     </p>
+     </p>
+     
+<h1 style={{marginTop:"50px" , marginBottom:"50px"}}>Event details🌟</h1>
+<h3>Date: 8th October 2022</h3>
+<h3>Time:9:15 a.m.- 11:15 a.m.</h3>
 <h3>Venue: Mini Auditorium</h3>
 
 
