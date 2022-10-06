@@ -7,6 +7,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import Contact from "./components/contact/contact";
 import SideBar from "./components/SideBar/SideBar";
 import Partners from "./components/partners/partners";
+import Sponsors from "./components/sponsors/sponsors";
 
 function App() {
   const location=useLocation();
@@ -22,6 +23,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/partners" element={<Partners/>} />
+            <Route path="/sponsors" element={<Sponsors/>}></Route>
           </Routes>
         </div>
       </>
