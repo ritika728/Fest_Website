@@ -35,13 +35,13 @@ const Events = () => {
                 <div class="card_content">
                   <p className="card_text">
                     Sometimes it's the journey that teaches you a lot about your
-                    destination. ~Drake
+                    destination. ~Drake </p>
                     <p className="card_text">
                       With the enthralling responses last year for the annual
                       ritual of IEEE Day, this year we’ve planned an astonishing
-                      series of events too🌟.{" "}
-                    </p>{" "}
-                    Are you excited and onboard with us for IEEE day
+                      series of events too🌟.
+                    </p>
+                    <p className="card_text">Are you excited and onboard with us for IEEE day
                     celebrations this year? IEEE Student Branch, Mody University
                     of Science and Technology along with its community partner
                     IEEE Delhi Technological University Student Branch and IEEE
@@ -49,7 +49,7 @@ const Events = () => {
                     bringing to you a 3 Day Fiesta of events and exposures that
                     you’ll cherish for a lifetime💫. We have planned for you
                     various technical events, hands-on workshops, relay
-                    marathons, cultural evenings, and much much more☄️.{" "}
+                    marathons, cultural evenings, and much much more☄️.
                   </p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Events = () => {
                   <p className="card_text">
                     With a great excitement for the IEEE Day Celebrations, we
                     present to you the most awaited itinerary of the 3-Day
-                    Fiesta 💫
+                    Fiesta 💫 </p>
                     <p className="card_text">
                       IEEE Student Branch Mody University of science and
                       Technology along with its community partners IEEE DTU SB
@@ -73,9 +73,9 @@ const Events = () => {
                       with delegates from various student branches of IEEE🧑‍🎓.
                     </p>
                     <h1>Event details🌟</h1>
-                    <h3>Date: 7th- 9th October 2022</h3>
-                    <h3>Venue: Mini Auditorium and ABB01</h3>
-                  </p>
+                    <p>Date: 7th- 9th October 2022</p>
+                    <p>Venue: Mini Auditorium and ABB01</p>
+                  
                 </div>
               </div>
             </li>
@@ -87,7 +87,7 @@ const Events = () => {
                 <div class="card_content">
                   <p className="card_text">
                     "Unity is strength when there is team work and
-                    collaboration, wonderful things can be achieved."
+                    collaboration, wonderful things can be achieved." </p>
                     <p className="card_text">
                       You all are cordially invited to the Grand Opening
                       Ceremony of <b>IEEE Day Celebrations</b> 🌟.
@@ -100,9 +100,9 @@ const Events = () => {
                       delegates across student branches🤝.
                     </p>
                     <h1>Opening Ceremony🌟</h1>
-                    <h3>Date: 9th October 2022</h3>
-                    <h3>Venue: Mini Auditorium </h3>
-                  </p>
+                    <p>Date: 9th October 2022</p>
+                    <p>Venue: Mini Auditorium </p>
+      
                 </div>
               </div>
             </li>
@@ -245,7 +245,7 @@ const Events = () => {
                     Khandelwal.
                   </p>
                   <p>
-                    <h1 style={{ marginTop: "50px", marginBottom: "50px" }}>
+                    <h1 style={{ marginTop: "50px"}}>
                       Speaker details🌟
                     </h1>
                     <p>
@@ -259,7 +259,7 @@ const Events = () => {
                     </p>
                   </p>
 
-                  <h1 style={{ marginTop: "50px", marginBottom: "50px" }}>
+                  <h1 style={{ marginTop: "50px"}}>
                     Event details🌟
                   </h1>
                   <p>Date: 8th October 2022</p>
