@@ -219,12 +219,15 @@ const Events = () => {
                       <p>🧑‍💻Abhinav Aggrawal</p>
                       <p>Corporate Coordinator and ML Mentor</p>
                     </p>
-                  </p>
-
-                  <h1>Event details🌟</h1>
+                    <h1>Event details🌟</h1>
+                  <p>
                   <p>Date: 7th October 2022</p>
                   <p>Time:11:30 a.m.-1:30 p.m.</p>
                   <p>Venue: Mini Auditorium</p>
+                  </p>
+                  </p>
+
+                  
                 </div>
               </div>
             </li>
@@ -243,9 +246,7 @@ const Events = () => {
                     Technology along with its community partners IEEE DTU SB and
                     IEEE GTBIT SB brings to you A coder’s journey by Mr. Piyush
                     Khandelwal.
-                  </p>
-                  <p>
-                    <h1 style={{ marginTop: "50px"}}>
+                    <h1 style={{ }}>
                       Speaker details🌟
                     </h1>
                     <p>
@@ -257,14 +258,18 @@ const Events = () => {
                         Delhi.
                       </p>
                     </p>
-                  </p>
-
-                  <h1 style={{ marginTop: "50px"}}>
+                    
+                  <h1 style={{ }}>
                     Event details🌟
                   </h1>
                   <p>Date: 8th October 2022</p>
                   <p>Time:9:15 a.m.- 11:15 a.m.</p>
                   <p>Venue: Mini Auditorium</p>
+                  </p>
+
+                  
+              
+                    
                 </div>
               </div>
             </li>
@@ -328,12 +333,13 @@ const Events = () => {
                   </p>
                   <p className="card_text">
                   IEEE Mody University of of science and technology in collaboration with IEEE DTU and IEEE GTBIT brings to you IEEE Day Celebrations'22, "KBC" where you will be asked questions from general knowledge to technical. So brush up your knowledge and join us in this exciting event.
-                  </p>
-
                   <h1>Event details🌟</h1>
                   <p>Date: 8th October 2022</p>
                   <p>Time:11:30 a.m.-1:30 p.m.</p>
                   <p>Venue: ABB 01</p>
+                  </p>
+
+                  
                 </div>
               </div>
             </li>
@@ -350,14 +356,15 @@ const Events = () => {
                   </p>
                   <p className="card_text" style={{ }}>
                   IEEE Mody University of of science and technology in collaboration with IEEE DTU and IEEE GTBIT provides you with a platform to bring changes in the world by brainstorming ideas that help make internet become a safer space for everyone. Join us in " IDEATHON:DARK SIDE OF THE WEB" 🌠
-                  </p>
-
                   <h1>
                     Event details🌟
                   </h1>
                   <p>Date: 8th October 2022</p>
                   <p>Time:2:45 p.m.- 5:00 p.m.</p>
                   <p>Venue: ABB 01</p>
+                  </p>
+
+                 
                 </div>
               </div>
             </li>
@@ -376,8 +383,7 @@ const Events = () => {
                   <p className="card_text" style={{  }}>
                   
 IEEE Mody University of science and technology in collaboration with IEEE DTU and IEEE GTBIT introduces it’s panel of judges for "IDEATHON: The Dark Side of the Web". 💫   
-                  </p>
-                  <h1>
+<h1>
                     Judge details🌟
                   </h1>
                   <h4>Mr. Hitesh Jahngir📝</h4>
@@ -387,6 +393,8 @@ IEEE Mody University of science and technology in collaboration with IEEE DTU an
                  <h4>Dr. Somil Jain📝</h4>
                  <p>Assistant Professor</p> 
                  <p>SET,Mody university</p> 
+                  </p>
+                  
                 </div>
               </div>
             </li>
@@ -406,7 +414,6 @@ IEEE Mody University of science and technology in collaboration with IEEE DTU an
                   </p>
                   <p className="card_text" style={{ }}>
                   IEEE Student Branch Mody University of science and Technology along with its community partners IEEE DTU SB and IEEE GTBIT SB invites you to be a part of a hands on workshop on Portfolio Building using React that upskills your resume into a portfolio that makes you outshine in interviews and placements.📈
-                  </p>
                   <h1>
                     Speaker details🌟
                   </h1>
@@ -420,6 +427,8 @@ IEEE Mody University of science and technology in collaboration with IEEE DTU an
                   <p>Date: 8th October 2022</p>
                   <p>Time:5 p.m.- 6:30 p.m.</p>
                   <p>Venue: ABB 01</p>
+                  </p>
+                  
                 </div>
               </div>
             </li>
@@ -521,13 +530,15 @@ IEEE Mody University of science and technology in collaboration with IEEE DTU an
                   <p className="card_text" style={{ }}>
                   IEEE Student Branch Mody University of science and Technology along with its community partners IEEE DTU SB and IEEE GTBIT SB brings to you an evening that brings out your filmy side and showcase you talents through various performances🌟.
                   </p>
-                  <p>Catch a glimpse of our * ”Dress up as your favourite Bollywood Character”* and win exciting prizes🏆.</p>
-
+                  <p className="card_text">Catch a glimpse of our "Dress up as your favourite Bollywood Character” and win exciting prizes🏆.
                   <h1>
                     Event details🌟
                   </h1>
                   <p>Date: 9th October 2022</p>
                   <p>Venue: Sangeet Samrat Tansen Sabhaghar</p>
+                  </p>
+
+                  
                 </div>
               </div>
             </li>
