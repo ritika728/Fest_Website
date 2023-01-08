@@ -19,6 +19,7 @@
     background-clip:text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 80px !important;
 }
 .partnersheading2{
   /* position: absolute; */
@@ -41,6 +42,17 @@
     display: flex;
     flex-direction: column;
 }
+
+.group{
+  display: block;
+  width: 80%;
+  margin: 0 auto !important;
+  margin-top: 60px !important;
+  overflow: hidden !important;
+
+}
+
+
 #container{
 	box-shadow: 0 15px 30px 1px grey;
 	background: rgba(255, 255, 255, 0.90);

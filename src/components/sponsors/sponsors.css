@@ -87,12 +87,12 @@
   }
 
   .title_sponsors {
-    margin-top: 100px !important;
+    margin-top: 60px !important;
     color: #FFF;
     text-align: center;
     font-family: "lato", sans-serif;
     font-weight: 900;
-    font-size: 60px !important;
+    font-size: 50px !important;
     letter-spacing: 10px;
     padding-left: 10px;
     background: -webkit-linear-gradient(white, #38495a);
@@ -100,4 +100,19 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom:-30px;
+  }
+
+  @media screen and (max-width:500px) {
+    .title_sponsors{
+      font-size: 180% !important;
+    }
+
+    .heading5{
+      margin-top: 80px !important;
+      font-size: 100%;
+    }
+
+    .sponsor{
+      width: 50%;
+    }
   }

@@ -24,7 +24,8 @@ h1 {
 }
 body{
   /* position: fixed; */
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: 290%;
   
 }
 

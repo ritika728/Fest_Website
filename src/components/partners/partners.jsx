@@ -2,6 +2,7 @@ import React from 'react'
 import Glogo from '../assests/gtbit2.png'
 import './partners.css'
 import Dtu from '../assests/dtu.png'
+import Partners from '../assests/partners.JPG'
 
 const partners = () => {
   return (
@@ -10,6 +11,8 @@ const partners = () => {
       <div id="stars"></div>
         {/* <div id="stars2"></div>  */}
         {/* <div id="stars3"></div> */}
+		<div className='photoo'>
+		<img className='group' src={Partners} alt="group_photograph" /></div>
       <h1 className='partnersheading'>COLLABORATORS</h1>
       <div className='partners'>
 <div id="container">	
@@ -49,7 +52,7 @@ const partners = () => {
 </div>
 
 </div>
-<h1 className='partnersheading2'>OUR COMMUNITY PARTNERS</h1>
+<h1 className='partnersheading2'>OUR COMMUNITY PARTNER</h1>
 <div id="container">	
 	
 	<div class="product-details">
